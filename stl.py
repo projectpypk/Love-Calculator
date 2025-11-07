@@ -23,11 +23,7 @@ if st.button("Calculate Love 💖"):
         st.markdown("---")
         st.write(f"{your_name}❤️{partner_name}")
         st.write(f"💌 Love Score: {score}%")
-
-            # ---- Save details to folder ----
-        folder = "user_data"
-        os.makedirs(folder, exist_ok=True)
-        file_path = os.path.join(folder, "love_data.txt")
+        file_path =r"love_data.txt"
 
         with open(file_path, "a") as f:
             f.write(f"User: {your_name}, Partner: {partner_name}, Love: {score}%\n")
