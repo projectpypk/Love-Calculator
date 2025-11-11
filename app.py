@@ -2,13 +2,6 @@ import streamlit as st
 import random
 import os
 
-# ---- Developer Password ----
-   # change this to your password
-
-# ---- App Title ----
-st.set_page_config(page_title="Hubble Contant 💘", page_icon="💘")
-st.title("💞 Hubble contant 💞")
-
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -17,6 +10,14 @@ import tkinter as tk
 from tkinter import messagebox
 from tkinter import simpledialog
 
+
+
+# ---- Developer Password ----
+   # change this to your password
+
+# ---- App Title ----
+st.set_page_config(page_title="Hubble Contant 💘", page_icon="💘")
+st.title("💞 Hubble contant 💞")
 
 
 
